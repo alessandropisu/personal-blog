@@ -2,17 +2,17 @@ const siteMetadata = {
   title: 'Alessandro Pisu',
   author: 'Alessandro Pisu',
   headerTitle: '<AlessandroPisu />',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: "Hello there, I'm Alessandro, Frontend Developer, or at least I like to think so.",
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  theme: 'dark',
+  siteUrl: 'https://alessandropisu.vercel.app/',
+  siteRepo: 'https://github.com/alessandropisu/personal-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'alessandro.pisu997@gmail.com',
-  github: 'https://github.com',
-  linkedin: 'https://www.linkedin.com',
+  github: 'https://github.com/alessandropisu',
+  linkedin: 'https://www.linkedin.com/in/pisu-alessandro',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

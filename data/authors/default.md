@@ -4,12 +4,12 @@ avatar: /static/images/avatar.jpg
 occupation: Frontend Developer
 company: Live Tech - Amplify your data
 email: alessandro.pisu997@gmail.com
-linkedin: https://www.linkedin.com
-github: https://github.com
+linkedin: https://www.linkedin.com/in/pisu-alessandro
+github: https://github.com/alessandropisu
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I’m a enthusiast and creative developer with over 4 years of experience, specialized in Frontend development.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I like studying new technologies and experimenting in my projects.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I have experience on projects of different sizes and face every new task as a challenge to overcome.
