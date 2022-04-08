@@ -1,5 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import CustomLink from './Link'
 
 export default function Footer() {
   return (
@@ -11,7 +12,9 @@ export default function Footer() {
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          Made with Next.js and Tailwind
+          Made with <CustomLink href="https://nextjs.org">Next.js</CustomLink> and{' '}
+          <CustomLink href="https://tailwindcss.com">Tailwind</CustomLink>, deployed on{' '}
+          <CustomLink href="https://vercel.com">Vercel</CustomLink>
         </div>
       </div>
     </footer>
