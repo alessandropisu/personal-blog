@@ -13,6 +13,8 @@ const siteMetadata = {
   email: 'alessandro.pisu997@gmail.com',
   github: 'https://github.com/alessandropisu',
   linkedin: 'https://www.linkedin.com/in/pisu-alessandro',
+  company: 'Live Tech - Amplify your data',
+  occupation: 'Frontend Developer',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
