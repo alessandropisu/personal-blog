@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-slate-800">
+      <div>
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Who I am 🤷‍♂️
@@ -16,13 +16,18 @@ export default function Home() {
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center space-x-2 pt-8">
-            <Image
-              src={aboutData.avatar}
-              alt="avatar"
-              width="200px"
-              height="200px"
-              className="h-48 w-48 rounded-full"
-            />
+            <div className="rounded-full bg-gradient-to-br from-purple-600 to-blue-500 p-[6px]">
+              <div className="rounded-full bg-white">
+                <Image
+                  src={aboutData.avatar}
+                  alt="avatar"
+                  width="200px"
+                  height="200px"
+                  className="h-48 w-48 rounded-full"
+                />
+              </div>
+            </div>
+
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
               {siteMetadata.author}
             </h3>
